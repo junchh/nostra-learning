@@ -1,0 +1,11 @@
+.forum.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.forum.table th.cell-stat {
+    width: 4em;
+}
+
+.forum.table th.cell-stat-2x {
+    width: 10em;
+}

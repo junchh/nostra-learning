@@ -1,0 +1,30 @@
+.post-text {
+	min-height: 302px;
+	margin-top: 12px;
+	margin-left: 165px;
+	margin-right: 10px;
+	text-align: justify;
+}
+
+.post-subject {
+	float:left;
+}
+
+.post-date {
+	float: right;
+}
+@media screen and (max-width: 768px) {
+    .profile-user-img, .user-stats, .text-desc , .name-badge {
+        display: none;
+    }
+	
+	.user-info, .post-subject, .post-date {
+		width: 100%;
+		text-align: center;
+	}
+	
+	.post-text {
+		min-height: 0;
+		margin-left: 0;
+	}
+}
